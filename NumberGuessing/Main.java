@@ -5,9 +5,10 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        // using scanner 
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
-
+        // giving min number
         int lowerBound = 1; // Lower bound for the random number
         int upperBound = 100; // Upper bound for the random number
         int numberToGuess = random.nextInt(upperBound - lowerBound + 1) + lowerBound;
