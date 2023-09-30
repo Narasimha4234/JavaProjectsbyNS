@@ -1,8 +1,8 @@
 package NumberGuessing;
-
+// narasimha edited this one 
 import java.util.Random;
 import java.util.Scanner;
-
+// these are the import modules
 public class Main {
     public static void main(String[] args) {
         // using scanner 
